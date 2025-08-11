@@ -1,4 +1,3 @@
-# Resume
-# of *Kristián Botek*
+# Resume of *Kristián Botek*
  - Just a simple static website only written in HTML and CSS, made to host a jpeg of my resume/CV.
  - ⚠️ *This is a TEMPORARY and FAST solution, before I have time to create a portfolio website.* ⚠️
