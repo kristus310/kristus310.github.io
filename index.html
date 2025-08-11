@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f4f4f4;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 90%;
+      height: auto;
+      border: 2px solid #333;
+      border-radius: 8px;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+      margin: 0 auto;
+      display: block;
+      transition: all 0.3s ease;
+    }
+
+    h1 {
+      color: #222;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+
+    @media (min-width: 1200px) {
+      img {
+        max-width: 500px;
+        width: 40%;
+      }
+      body {
+        padding: 40px;
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+      img {
+        max-width: 600px;
+        width: 60%;
+      }
+      body {
+        padding: 30px;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      img {
+        max-width: 650px;
+        width: 75%;
+      }
+      body {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) {
+      img {
+        width: 85%;
+        max-width: 500px;
+      }
+      body {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+
+    @media (max-width: 575px) {
+      img {
+        width: 95%;
+        max-width: none;
+        border-width: 1.5px;
+      }
+      body {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 1.4rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      img {
+        width: 100%;
+        border-width: 1px;
+      }
+      body {
+        padding: 10px;
+      }
+      h1 {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      img:hover {
+        transform: scale(1.02);
+        box-shadow: 4px 4px 20px rgba(0,0,0,0.4);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="CV-Botek.jpg" alt="Resume - CV Botek"/>
+  </div>
+</body>
+</html>
